@@ -14,7 +14,15 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container text-center my-2 d-sm-block d-lg-none">
+        <div class="btn-group" role="group" aria-label="Basic outlined example">
+            <a href="./index.html" class="btn btn-outline-primary">Home</a>
+            <a href="./quiz.html" class="btn btn-outline-primary">Quiz</a>
+            <a href="./leaderboard.html" class="btn btn-outline-primary">Leaderboard</a>
+            <a href="./login.html" class="btn btn-outline-primary">Login</a>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-none d-lg-block">
         <div class="container">
             <a class="navbar-brand" href="#">BrainBunny</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -65,12 +73,12 @@
         </div>
 
         <div class="container text-center my-4">
-            <div class="row">
-                <div class="col">
+            <div class="row row-cols-sm-1 row-cols-md-2">
+                <div class="col-12">
                     <img src="./user.png" alt="user-profile" width="150" height="150">
                     <h2 class="fs-3">@aman</h2>
                 </div>
-                <div class="col">
+                <div class="col-12">
                     <h2>Aman Sharma</h2>
                     <p class="fs-5"><i class="bi bi-gender-ambiguous"></i> Male</p>
                     <p class="fs-5"><i class="bi bi-geo-alt-fill"></i> Rajasthan</p>
@@ -82,8 +90,8 @@
         <hr class="my-5">
 
         <div class="container">
-            <div class="row">
-                <div class="col">
+            <div class="row row-cols-sm-1 row-cols-md-1 row-cols-lg-2">
+                <div class="col-12">
                     <h3>Quiz attended by @aman</h3>
                     <table class="table">
                         <thead>
@@ -116,7 +124,7 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col">
+                <div class="col-12">
                     <h3>@aman's performance</h3>
                 </div>
             </div>
